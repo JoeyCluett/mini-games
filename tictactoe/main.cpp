@@ -1,7 +1,7 @@
 #include <iostream>
 #include <SDL/SDL.h>
 #include <SDL/SDL_gfxPrimitives.h>
-#include "sdl_core.h"
+#include <sdl_core.h>
 
 using namespace std;
 

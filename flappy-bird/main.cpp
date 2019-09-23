@@ -2,7 +2,7 @@
 #include <list>
 #include <SDL/SDL.h>
 #include <SDL/SDL_gfxPrimitives.h>
-#include "sdl_core.h"
+#include <sdl_core.h>
 
 using namespace std;
 
@@ -23,7 +23,7 @@ int main() {
         const int space_cols_ver   = 150; // 100; // 35; //100;
         const int cols_width = 50;
         const int col_speed = 4;
-     
+    
         list<pair<int, int>> columns;
 
     } vars;
