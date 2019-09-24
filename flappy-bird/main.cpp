@@ -8,6 +8,7 @@ using namespace std;
 
 int main() {
     SDL_Init(SDL_INIT_EVERYTHING);
+    SDL_ShowCursor(SDL_DISABLE);
     auto* s = SDL_SetVideoMode(350, 600, 32, SDL_HWSURFACE | SDL_DOUBLEBUF | SDL_FULLSCREEN);
 
     struct {
@@ -19,7 +20,7 @@ int main() {
 
         const int half_height = 10;
         const int bird_x = 75;
-        const int space_cols_hor   = 200;
+        const int space_cols_hor   = 100; //200;
         const int space_cols_ver   = 150; // 100; // 35; //100;
         const int cols_width = 50;
         const int col_speed = 4;
